@@ -5,9 +5,9 @@
           fetch="https://github.com/WallBreaker2407" />
  
  <!-- Sync trees -->
- <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="WallBreaker2407" revision="xd" />
- <project path="device/asus/X00TD" name="device_asus_X00TD" remote="WallBreaker2407" revision="xd" />
- <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="xd" />
+ <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="WallBreaker2407" revision="nad" />
+ <project path="device/asus/X00TD" name="device_asus_X00TD" remote="WallBreaker2407" revision="nad" />
+ <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="nad" />
  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="WallBreaker2407" revision="kernel.lnx.4.4.r38-rel" clone-depth="1" />
  
  </manifest>
