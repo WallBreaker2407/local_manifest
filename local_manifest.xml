@@ -10,6 +10,6 @@
  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="WallBreaker2407" revision="nad-11" />
  <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="WallBreaker2407" revision="nad-11" />
  <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="nad-11" />
- <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Plankton00" revision="r38" clone-depth="1" />
+ <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Plankton00" revision="X00TD-NLV-HMP" clone-depth="1" />
  
  </manifest>
