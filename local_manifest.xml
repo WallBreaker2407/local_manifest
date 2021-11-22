@@ -5,13 +5,11 @@
           fetch="https://github.com/Plankton00" />
   <remote name="WallBreaker2407"
           fetch="https://github.com/WallBreaker2407" />
-  <remote name="priv"
-          fetch="https://github.com/priv" />
   
  <!-- Sync trees -->
  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="WallBreaker2407" revision="nad-11" />
  <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="WallBreaker2407" revision="nad-11" />
  <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="nad-11" />
  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Plankton00" revision="X00TD-NLV-HMP" clone-depth="1" />
- <project path="packages/apps/NusantaraParts" name="android_packages_apps_NusantaraParts" renote="priv" revision="4.4-NoDirac" />
+ 
  </manifest>
