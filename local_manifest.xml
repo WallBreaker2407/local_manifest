@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="Plankton00"
+  <remote name="Plankton86"
           fetch="https://github.com/Plankton86" />
   <remote name="WallBreaker2407"
           fetch="https://github.com/WallBreaker2407" />
