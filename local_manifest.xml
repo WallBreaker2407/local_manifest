@@ -7,9 +7,9 @@
           fetch="https://github.com/Plankton86" />
   
  <!-- Sync trees -->
- <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="WallBreaker2407" revision="caf-11" />
- <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="WallBreaker2407" revision="caf-11" />
- <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="caf-11" />
- <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-1" remote="Plankton86" revision="RTX-NLV-HMP" clone-depth="1" />
+ <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="WallBreaker2407" revision="xd-11" />
+ <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="WallBreaker2407" revision="xd-11" />
+ <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="xd-11" />
+ <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Plankton86" revision="RTX-NLV-HMP" clone-depth="1" />
  
  </manifest>
