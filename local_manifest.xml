@@ -3,6 +3,8 @@
   
   <remote name="WallBreaker2407"
           fetch="https://github.com/WallBreaker2407" />
+  <remote name="Subinsmani"
+          fetch="https://github.com/Subinsmani" />
   
  <!-- Sync trees -->
  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="WallBreaker2407" revision="XD-12" />
@@ -10,4 +12,7 @@
  <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="XD-12" />
  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="WallBreaker2407" revision="RTX-LV-OC-2.22" clone-depth="1" />
  
+  <!-- Pakages -->
+  <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition.git" remote="Subinsmani" revision="eleven" />
+  
  </manifest>
