@@ -7,9 +7,9 @@
         fetch="https://github.com/pkm774" />
   
  <!-- Sync trees -->
- <project path="device/asus/sdm660-common" name="xd_device_asus_sdm660-common" remote="WallBreaker2407" revision="twelve" />
+ <project path="device/asus/sdm660-common" name="xd_device_asus_sdm660-common" remote="WallBreaker2407" revision="12" />
  <project path="device/asus/X00TD" name="xd_device_asus_X00TD" remote="WallBreaker2407" revision="twelve" />
- <project path="vendor/asus" name="xd_vendor_asus_X00TD" remote="WallBreaker2407" revision="twelve" />
+ <project path="vendor/asus" name="xd_vendor_asus_X00TD" remote="WallBreaker2407" revision="12" />
  <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pkm774" revision="master" clone-depth="1" />
  
  </manifest>
