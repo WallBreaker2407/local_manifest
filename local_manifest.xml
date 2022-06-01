@@ -3,13 +3,11 @@
   
   <remote name="WallBreaker2407"
           fetch="https://github.com/WallBreaker2407" />
-  <remote name="ArrowOS-Devices"
-          fetch="https://github.com/ArrowOS-Devices" />
-  
+ 
  <!-- Sync trees -->
- <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="WallBreaker2407" revision="xdroid-4.19" />
- <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="WallBreaker2407" revision="xdroid" />
- <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="xdroid-4.19" />
- <project path="kernel/asus/sdm660" name="android_kernel_asus_X00T" remote="ArrowOS-Devices" revision="arrow-12.0" clone-depth="1" />
+ <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="WallBreaker2407" revision="xdroid-OSS" />
+ <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="WallBreaker2407" revision="xdroid-OSS" />
+ <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="xdroid-OSS" />
+ <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="WallBreaker2407" revision="RTX-KERNEL-LV" clone-depth="1" />
  
  </manifest>
