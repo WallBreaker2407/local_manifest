@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <!-- Remotes -->
   <remote name="WallBreaker2407"
           fetch="https://github.com/WallBreaker2407" />
  
- <!-- Sync trees -->
+ <!-- Device Tree -->       
  <project path="device/asus/sdm660-common" name="xd_device_asus_sdm660-common" remote="WallBreaker2407" revision="twelve" />
  <project path="device/asus/X00TD" name="xd_device_asus_X00TD" remote="WallBreaker2407" revision="twelve" />
+  
+ <!-- Vendor Tree -->
  <project path="vendor/asus" name="xd_vendor_asus_X00TD" remote="WallBreaker2407" revision="twelve" />
+  
+ <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="WallBreaker2407" revision="twelve" clone-depth="1" />
  
  </manifest>
