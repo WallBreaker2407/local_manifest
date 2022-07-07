@@ -8,8 +8,7 @@
           fetch="https://github.com/travarilo" />
  
  <!-- Device Tree -->       
- <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="WallBreaker2407" revision="10" />
- <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="WallBreaker2407" revision="10" />
+ <project path="device/asus/X00TD" name="device_asus_X00T" remote="WallBreaker2407" revision="10" />
   
  <!-- Vendor Tree -->
  <project path="vendor/asus" name="proprietary_vendor_asus" remote="WallBreaker2407" revision="10" />
